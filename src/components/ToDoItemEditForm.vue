@@ -64,6 +64,7 @@ export default {
   display: block;
   margin-bottom: 5px;
 }
+
 input {
   display: inline-block;
   margin-top: 0.4rem;
@@ -72,11 +73,13 @@ input {
   padding: 0.4rem 0.8rem;
   border: 2px solid #565656;
 }
+
 form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 form > * {
   flex: 0 0 100%;
 }

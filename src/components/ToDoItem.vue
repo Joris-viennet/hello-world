@@ -165,7 +165,7 @@ export default {
 }
 .custom-checkbox > input[type="checkbox"]:focus + label::before {
   border-width: 4px;
-  outline: 3px dashed #228bec;
+  outline: 2px solid #228bec;
 }
 .custom-checkbox > label::after {
   box-sizing: content-box;

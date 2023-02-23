@@ -157,6 +157,7 @@ export default {
   padding-top: 0;
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 @media screen and (min-width: 550px) {
   #app {
