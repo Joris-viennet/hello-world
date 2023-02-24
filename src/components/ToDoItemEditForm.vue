@@ -34,6 +34,7 @@ export default {
       required: true,
     },
   },
+  emits: ["item-edited", "edit-cancelled"],
   data() {
     return {
       newLabel: this.label,

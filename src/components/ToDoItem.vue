@@ -45,6 +45,7 @@ export default {
     done: { default: false, type: Boolean },
     id: { required: true, type: String },
   },
+  emits: ["item-deleted", "item-edited"],
   data() {
     return {
       isEditing: false,

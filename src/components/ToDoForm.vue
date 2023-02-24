@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  emits: ["todo-added"],
   methods: {
     onSubmit() {
       if (this.label === "") {
